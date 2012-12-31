@@ -1,0 +1,97 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "foundation";
+@import "compass/css3/transform";
+@import "compass/css3/text-shadow";
+
+body {
+  background-color: #ffc;
+}
+
+.col-minor {
+  @extend .offset-by-one;
+  @extend .columns;
+  @extend .four;
+}
+
+.col-major {
+  @extend .columns;
+  @extend .six;
+}
+
+.section-marker {
+  @extend .col-minor;
+  text-align: right;
+
+  @include respondTo(smallScreen) {
+    text-align: left;
+  }
+
+  h2 {
+    font-size: 100%;
+    line-height: 1.6em;
+    margin-top: 0;
+    color: #999;
+  }
+}
+
+.section-content {
+  @extend .col-major;
+  
+  em {
+    color: #888;
+  }
+}
+
+.image-cell {
+  @extend .col-minor;
+  text-align: right;
+  
+  img {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 250px;
+
+    @include rotate(-4deg);
+  }
+
+  h1 {
+    position: absolute;
+    left: 100%;
+    padding-left: 15px;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    @include text-shadow(1px 1px #666);
+  }
+  
+  @include respondTo(smallScreen) {
+    text-align: left;
+    img {
+      @include rotate(0);
+      // width: 100% !important;
+      height: 100px;
+      width: auto !important;
+      padding: 0;
+      margin: 0;
+    }
+
+    h1 {
+      position: absolute;
+      left: 125px;
+    }
+
+  }
+}
+
+.heading {
+  @extend .row;
+  margin: 40px auto;
+}
+
