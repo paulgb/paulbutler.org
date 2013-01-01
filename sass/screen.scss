@@ -93,5 +93,9 @@ body {
 .heading {
   @extend .row;
   margin: 40px auto;
+
+  @include respondTo(smallScreen) {
+    margin: 20px auto;
+  }
 }
 
