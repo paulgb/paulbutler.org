@@ -2,3 +2,5 @@
 .index.html.swp
 .sass-cache
 stylesheets/
+node_modules/
+out/

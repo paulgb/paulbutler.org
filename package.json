@@ -1,0 +1,18 @@
+{
+  "name": "paulbutler.org",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "docpad generate",
+    "serve": "docpad server"
+  },
+  "dependencies": {
+    "docpad": "~6.20.1",
+    "docpad-plugin-sass": "~2.4.0",
+    "jade": "~0.27.7",
+    "docpad-plugin-jade": "~2.1.0"
+  },
+  "devDependencies": {},
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}
