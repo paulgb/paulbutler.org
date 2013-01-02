@@ -1,5 +1,5 @@
 ---
-name: What $480 of Gross Revenue Looks Like to Groupon
+title: What $480 of Gross Revenue Looks Like to Groupon
 type: post
 date: February 28, 2011
 layout: post

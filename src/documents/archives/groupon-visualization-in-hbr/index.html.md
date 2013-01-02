@@ -1,6 +1,6 @@
 ---
 layout: post
-name: Groupon Visualization in HBR
+title: Groupon Visualization in HBR
 date: July 25, 2011
 type: post
 ---

@@ -1,5 +1,5 @@
 ---
-name: Data Structures for Range-Sum Queries
+title: Data Structures for Range-Sum Queries
 type: post
 layout: post
 date: July 10, 2010

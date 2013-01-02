@@ -1,5 +1,5 @@
 ---
-name: Visualizing Facebook Friends: Eye Candy in R
+title: Visualizing Facebook Friends: Eye Candy in R
 type: post
 layout: post
 date: December 18, 2010

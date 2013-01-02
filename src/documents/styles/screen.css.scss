@@ -10,6 +10,7 @@
 
 body {
   background-color: #fffffc !important;
+  padding-bottom: 40px !important;
 }
 
 .topbar {
@@ -24,7 +25,13 @@ body {
   }
 }
 
-code {
+pre {
+  overflow-x: auto;
+  padding: 6px !important;
+  margin-bottom: 20px !important;
+}
+
+pre, code {
   font-family: courier, monospace !important;
   font-weight: normal !important;
   background-color: #eee !important;
