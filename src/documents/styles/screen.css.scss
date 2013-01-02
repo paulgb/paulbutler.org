@@ -13,7 +13,7 @@ body {
 }
 
 .topbar {
-  background-color: $mainColor;
+  background-color: $headerFontColor;
   margin-bottom: 40px;
 
   a, a:hover, a:visited, a:active {
@@ -25,7 +25,14 @@ body {
 }
 
 code {
-  font-family: courier, monospace;
+  font-family: courier, monospace !important;
+  font-weight: normal !important;
+  background-color: #eee !important;
+}
+
+h3 {
+  color: black !important;
+  font-size: 18px !important;
 }
 
 .col-minor {
@@ -48,9 +55,6 @@ code {
     text-align: left;
   }
 
-  h1 {
-    text-transform: uppercase;
-  }
 }
 
 .section-marker {
