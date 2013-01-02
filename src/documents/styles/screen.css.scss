@@ -6,10 +6,22 @@
 @import "compass/reset";
 @import "foundation";
 @import "compass/css3/transform";
-@import "compass/css3/text-shadow";
+@import "_settings";
 
 body {
-  background-color: #ffc;
+  background-color: #fffffc !important;
+}
+
+.topbar {
+  background-color: $mainColor;
+  margin-bottom: 40px;
+
+  a, a:hover, a:visited, a:active {
+    color: white;
+    padding: 6px;
+    display: block;
+    font-weight: bold;
+  }
 }
 
 .col-minor {
@@ -23,19 +35,41 @@ body {
   @extend .six;
 }
 
-.section-marker {
-  @extend .col-minor;
+.section-meta {
+  @extend .five;
+  @extend .columns;
   text-align: right;
 
   @include respondTo(smallScreen) {
     text-align: left;
   }
 
+  h1 {
+    text-transform: uppercase;
+  }
+}
+
+.section-marker {
+  @extend .col-minor;
+  text-align: right;
+
   h2 {
     font-size: 100%;
     line-height: 1.6em;
     margin-top: 0;
     color: #999;
+  }
+}
+
+.post-date {
+  color: #999;
+  font-style: italic;
+}
+
+.post-author {
+  a {
+    font-weight: bold;
+    color: #444;
   }
 }
 
@@ -47,9 +81,17 @@ body {
   }
 }
 
+h1 {
+  margin-top: 0 !important;
+}
+
 .image-cell {
   @extend .col-minor;
   text-align: right;
+
+  @include respondTo(smallScreen) {
+    text-align: left;
+  }
   
   img {
     padding: 10px;
@@ -66,9 +108,8 @@ body {
     padding-left: 15px;
     white-space: nowrap;
     position: absolute;
+    margin: 0;
     bottom: 0;
-    margin-bottom: 0;
-    @include text-shadow(1px 1px #666);
   }
   
   @include respondTo(smallScreen) {
