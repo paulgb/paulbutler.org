@@ -11,7 +11,7 @@ div(class='row')
     h2 bio
   div(class='section-content')
     p
-      | I'm a freelance data scientist in Toronto, Canada.
+      | I'm a freelance data hacker in Toronto, Canada.
       | My focus is on creative exploration and visualization
       | of large datasets. I love travelling, sailing, and
       | exploring new cities.
@@ -23,7 +23,7 @@ div(class='row')
     ul
       each post in getCollection('posts').toJSON()
         li
-          a(href=post.url)= post.title
+          a(href=post.urls[post.urls.length-1])= post.title
           |  
           em= moment(post.date).format('MMMM Do, YYYY')
 

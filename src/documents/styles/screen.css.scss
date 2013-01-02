@@ -25,6 +25,18 @@ body {
   }
 }
 
+.section-post-content {
+  ul li {
+    margin-left: 20px !important;
+    list-style: square;
+  }
+
+  blockquote {
+    color: #222 !important;
+    padding-bottom: 5px !important;
+  }
+}
+
 pre {
   overflow-x: auto;
   padding: 6px !important;

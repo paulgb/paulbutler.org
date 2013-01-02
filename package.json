@@ -11,7 +11,8 @@
     "jade": "~0.27.7",
     "docpad-plugin-jade": "~2.1.0",
     "docpad-plugin-marked": "~2.1.0",
-    "moment": "~1.7.2"
+    "moment": "~1.7.2",
+    "docpad-plugin-cleanurls": "~2.2.5"
   },
   "devDependencies": {},
   "repository": "",
