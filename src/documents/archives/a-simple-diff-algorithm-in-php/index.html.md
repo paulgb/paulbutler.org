@@ -1,7 +1,6 @@
 ---
 title: A Simple Diff Algorithm in PHP
 date: May 15, 2007
-type: post
 layout: post
 ---
 A diff algorithm in its most basic form takes two strings, and returns the changes needed to make the old string into the new one. They are useful in comparing different versions of a document or file, to see at a glance what the differences are between the two. Wikipedia, for example, uses diffs to compare the changes between two revisions of the same article.

@@ -1,0 +1,6 @@
+---
+title: Make for Data Scientists
+type: post
+url: http://www.bitaesthetics.com/posts/make-for-data-scientists.html
+date: October 15, 2012
+---
