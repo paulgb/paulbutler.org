@@ -2,6 +2,7 @@
 layout: post
 name: Groupon Visualization in HBR
 date: July 25, 2011
+type: post
 ---
 [A version of my Groupon visualization](http://hbr.org/2011/07/vision-statement-deconstructing-the-groupon-phenomenon/ar/1) appears in the latest Harvard Business Review. At the suggestion of their editorial and design staff, I re-did the visualization to focus on a smaller subset of the data: deals in San Francisco.
 

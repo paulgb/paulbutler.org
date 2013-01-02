@@ -21,16 +21,11 @@ div(class='row')
     h2 writing
   div(class='section-content')
     ul
-      li
-        a(href='#') Make for Data Scientists
-        |  
-        em October 15, 2012
-      li
-        a(href='#') Groupon Visualization in HBR
-        |  
-        em July 25, 2011
-      li
-        a(href='#') Archive
+      each post in getCollection('posts').toJSON()
+        li
+          a(href=post.url)= post.name
+          |  
+          em= moment(post.date).format('MMMM Do, YYYY')
 
 div(class='row')
   div(class='section-marker')
@@ -38,9 +33,9 @@ div(class='row')
   div(class='section-content')
     ul
       li
-        a(href='#') email
+        a(href='mailto:paul@paulbutler.org') email
       li
-        a(href='#') linkedin
+        a(href='http://www.linkedin.com/in/paulgb') linkedin
       li
-        a(href='#') github
+        a(href='http://github.com/paulgb') github
 

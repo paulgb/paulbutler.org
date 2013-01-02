@@ -24,6 +24,10 @@ body {
   }
 }
 
+code {
+  font-family: courier, monospace;
+}
+
 .col-minor {
   @extend .offset-by-one;
   @extend .columns;
@@ -52,6 +56,10 @@ body {
 .section-marker {
   @extend .col-minor;
   text-align: right;
+
+  @include respondTo(smallScreen) {
+    text-align: left;
+  }
 
   h2 {
     font-size: 100%;
