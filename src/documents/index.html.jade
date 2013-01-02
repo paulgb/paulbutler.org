@@ -1,11 +1,6 @@
 ---
-layout: base
+layout: head
 ---
-div(class='heading')
-  div(class='image-cell')
-    img(src='images/paul.jpg')
-    h1 Paul Butler
-
 div(class='row')
   div(class='section-marker')
     h2 bio
@@ -21,11 +16,13 @@ div(class='row')
     h2 writing
   div(class='section-content')
     ul
-      each post in getCollection('posts').toJSON()
+      each post in getCollection('posts').query({limit: 3}).toJSON()
         li
           a(href=post.urls[post.urls.length-1])= post.title
           |  
           em= moment(post.date).format('MMMM Do, YYYY')
+      li
+        a(href='/archives/') Archive
 
 div(class='row')
   div(class='section-marker')

@@ -1,0 +1,15 @@
+---
+title: Archive
+layout: head
+---
+div(class='row')
+  div(class='section-marker')
+    h2 archive
+  div(class='section-content')
+    ul
+      each post in getCollection('posts').query().toJSON()
+        li
+          a(href=post.urls[post.urls.length-1])= post.title
+          |  
+          em= moment(post.date).format('MMMM Do, YYYY')
+

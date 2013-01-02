@@ -10,4 +10,4 @@ Solving the problem is not as simple as it seems, and the problem bothered me fo
 
 It works by finding the longest sequence of words common to both strings, and recursively finding the longest sequences of the remainders of the string until the substrings have no words in common. At this point it adds the remaining new words as an insertion and the remaining old words as a deletion.
 
-As of 2009, [the code is hosted on GitHub](https://github.com/paulgb/simplediff).
+Update: As of 2009, [the code is hosted on GitHub](https://github.com/paulgb/simplediff).
