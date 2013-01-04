@@ -7,6 +7,7 @@
 @import "foundation";
 @import "compass/css3/transform";
 @import "_settings";
+@import "compass/css3/transition";
 
 body {
   background-color: #fffffc !important;
@@ -135,7 +136,12 @@ h1 {
     background-color: #fff;
     width: 250px;
 
+    @include transition-duration(0.5s);
     @include rotate(-4deg);
+
+    &:hover {
+      @include rotate(0deg);
+    }
   }
 
   h1 {
