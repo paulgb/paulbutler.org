@@ -136,7 +136,14 @@ h1 {
     background-color: #fff;
     width: 250px;
 
-    @include transition-duration(0.5s);
+    @include transition(0.5s);
+
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -ms-transition-property: -ms-transform;
+    -o-transition-property: -o-transform;
+    -transition-property: -transform;
+
     @include rotate(-4deg);
 
     &:hover {
