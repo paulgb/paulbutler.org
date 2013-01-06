@@ -3,7 +3,7 @@ build :
 	npm run-script build
 
 publish : build
-	cd out; cloudpush.py push
+	s3cmd sync out s3://paulbutler.org/
 
 serve :
 	npm run-script serve
