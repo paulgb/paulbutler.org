@@ -1,5 +1,5 @@
 ---
-title: Page not Found
+title: Page Not Found
 layout: page
 ---
 **The page you are looking for does not exist.** It probably did at some point but was lost in a server move. Sorry about that.
