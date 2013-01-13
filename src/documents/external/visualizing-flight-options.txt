@@ -1,0 +1,6 @@
+---
+title: Visualizing Flight Options
+type: post
+url: http://bitaesthetics.com/posts/visualizing-flight-options.html
+date: January 13, 2013
+---
