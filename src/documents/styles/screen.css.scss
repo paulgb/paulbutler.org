@@ -1,8 +1,3 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
 @import "compass/reset";
 @import "foundation";
 @import "compass/css3/transform";
@@ -15,7 +10,7 @@ body {
 }
 
 .topbar {
-  background-color: $headerFontColor;
+  background-color: $header-font-color;
   margin-bottom: 40px;
 
   a, a:hover, a:visited, a:active {
@@ -61,22 +56,23 @@ h3 {
 }
 
 .col-minor {
-  @extend .offset-by-one;
   @extend .columns;
-  @extend .four;
+  @extend .small-12;
+  @extend .large-5;
 }
 
 .col-major {
   @extend .columns;
-  @extend .six;
+  @extend .small-12;
+  @extend .large-7;
 }
 
 .section-meta {
-  @extend .five;
+  @extend .large-5;
   @extend .columns;
   text-align: right;
 
-  @include respondTo(smallScreen) {
+  @media #{$small-only} {
     text-align: left;
   }
 
@@ -86,7 +82,7 @@ h3 {
   @extend .col-minor;
   text-align: right;
 
-  @include respondTo(smallScreen) {
+  @media #{$small-only} {
     text-align: left;
   }
 
@@ -95,6 +91,7 @@ h3 {
     line-height: 1.6em;
     margin-top: 0;
     color: #999;
+    font-weight: 500;
   }
 }
 
@@ -116,17 +113,24 @@ h3 {
   em {
     color: #888;
   }
+
+  ul {
+      margin-left: 0;
+  }
 }
 
 h1 {
   margin-top: 0 !important;
+  font-size: 44px !important;
+  font-weight: bold !important;
+  //font-weight: 500 !important;
 }
 
 .image-cell {
   @extend .col-minor;
   text-align: right;
 
-  @include respondTo(smallScreen) {
+  @media #{$small-only} {
     text-align: left;
   }
   
@@ -161,7 +165,7 @@ h1 {
     bottom: 0;
   }
   
-  @include respondTo(smallScreen) {
+  @media #{$small-only} {
     text-align: left;
     img {
       @include rotate(0);
@@ -184,7 +188,7 @@ h1 {
   @extend .row;
   margin: 40px auto;
 
-  @include respondTo(smallScreen) {
+  @media #{$small-only} {
     margin: 20px auto;
   }
 }

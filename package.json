@@ -6,13 +6,13 @@
     "serve": "docpad server watch"
   },
   "dependencies": {
-    "docpad": "~6.21.0",
-    "docpad-plugin-sass": "~2.4.0",
-    "jade": "~0.27.7",
-    "docpad-plugin-jade": "~2.1.0",
-    "docpad-plugin-marked": "~2.1.0",
-    "moment": "~1.7.2",
-    "docpad-plugin-cleanurls": "~2.2.5"
+    "docpad": "^6.78.1",
+    "docpad-plugin-cleanurls": "^2.7.0",
+    "docpad-plugin-jade": "^2.9.0",
+    "docpad-plugin-marked": "^2.3.0",
+    "docpad-plugin-sass": "^2.7.4",
+    "jade": "^1.11.0",
+    "moment": "^2.10.3"
   },
   "devDependencies": {},
   "repository": "",

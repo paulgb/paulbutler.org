@@ -6,9 +6,8 @@ div(class='row')
     h2 bio
   div(class='section-content')
     p
-      | I'm a data scientist in Toronto, Canada.
-      | My focus is on creative exploration and visualization
-      | of large datasets. I love travelling, sailing, and
+      | I'm a Google engineer in New York City.
+      | I love travelling, sailing, and
       | exploring new cities.
   
 div(class='row')
@@ -18,7 +17,7 @@ div(class='row')
     ul
       each post in getCollection('posts').query({limit: 3}).toJSON()
         li
-          a(href=post.urls[post.urls.length-1])= post.title
+          a(href=post.urls[0])= post.title
           |  
           em= moment(post.date).format('MMMM Do, YYYY')
       li

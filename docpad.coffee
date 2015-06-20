@@ -8,3 +8,7 @@ module.exports =
     posts: (database) ->
       database.findAllLive({type: 'post'}, {date: -1})
 
+plugins:
+    sass:
+        compass: true
+
