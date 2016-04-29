@@ -6,7 +6,7 @@
     "serve": "docpad server watch"
   },
   "dependencies": {
-    "docpad": "^6.78.1",
+    "docpad": "^6.78.4",
     "docpad-plugin-cleanurls": "^2.7.0",
     "docpad-plugin-jade": "^2.9.0",
     "docpad-plugin-marked": "^2.3.0",

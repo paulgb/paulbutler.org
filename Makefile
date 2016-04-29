@@ -2,8 +2,9 @@
 build :
 	npm run-script build
 
-publish : build
-	cd out; s3cmd sync ./ s3://paulbutler.org/
+publish :
+	gsutil rsync -R out gs://www.paulbutler.org
+	gsutil acl ch -u AllUsers:R -R gs://www.paulbutler.org
 
 serve :
 	npm run-script serve
