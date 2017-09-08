@@ -1,0 +1,15 @@
+{{ partial "index_header.html" . }}
+
+<div class="section-marker">
+    <h2>archive</h2>
+</div>
+<div class="section-content">
+    <ul>
+        {{ range (where .Data.Pages.ByPublishDate "Section" "archives") }}
+            <li><a href="{{ .Params.xurl | default .Permalink }}">{{ .Title }}</a> <em>({{ .Date.Format "January 2, 2006" }})</em></li>
+        {{ end }}
+    </ul>
+</div>
+
+
+{{ partial "index_footer.html" . }}
