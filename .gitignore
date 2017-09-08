@@ -1,6 +1,2 @@
+public
 .DS_Store
-.*.swp
-.sass-cache
-stylesheets/
-node_modules/
-out/
