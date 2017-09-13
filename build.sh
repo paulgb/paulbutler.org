@@ -2,5 +2,5 @@
 
 hugo
 
-tree public
+find .
 
