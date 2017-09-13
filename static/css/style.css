@@ -34,12 +34,12 @@ h1 {
     border: 1px solid #ccc;
     padding: 10px;
     background: white;
-    transition: 0.5s;
     margin: 20px 0;
 }
 
 .profile-image:hover {
     transform: rotate(0deg);
+    transition: 0.5s;
 }
 
 .section-marker {
