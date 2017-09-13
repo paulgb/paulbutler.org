@@ -2,5 +2,5 @@
 
 hugo
 
-find .
+cat public/archives/index.html
 
