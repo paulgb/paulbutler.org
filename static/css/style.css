@@ -40,8 +40,7 @@ h1 {
 pre {
     overflow-x: scroll;
     background: #eee;
-    padding: 8px;
-    margin: 0 -8px;
+    max-width: 100%;
 }
 
 .nav {
@@ -91,6 +90,11 @@ pre {
 @media (min-width: 900px) {
     .header-image {
         margin-right: 25px;
+    }
+
+    pre {
+        padding: 8px;
+        margin: 0 -8px;
     }
 
     .profile-image {
