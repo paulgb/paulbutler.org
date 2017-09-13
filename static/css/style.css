@@ -16,45 +16,7 @@ h1 {
     font-size: 44px;
 }
 
-.header-image {
-    margin-right: 25px;
-}
 
-.fixed-centered {
-    max-width: 900px;
-    margin: 40px auto;
-}
-
-.section-content h1 {
-    margin-top: 190px;
-}
-
-.profile-image {
-    transform: rotate(-4deg);
-    border: 1px solid #ccc;
-    padding: 10px;
-    background: white;
-    margin: 20px 0;
-}
-
-.profile-image:hover {
-    transform: rotate(0deg);
-    transition: 0.5s;
-}
-
-.section-marker {
-    width: 400px;
-    text-align: right;
-    float: left;
-    clear: left;
-}
-
-.section-marker h2 {
-    font-size: 14px;
-    color: #999;
-    margin: 0 30px 0 0;
-    font-weight: 500;
-}
 
 .section-content ul {
     list-style: none;
@@ -64,12 +26,6 @@ h1 {
 
 .section-content li {
     margin-bottom: 5px;
-}
-
-.section-content {
-    width: 500px;
-    float: left;
-    margin-bottom: 20px;
 }
 
 .section-content em {
@@ -112,4 +68,67 @@ pre {
     font-family: "PT-Serif", serif;
     font-size: 18pt;
     line-height: 26pt;
+}
+
+.postbody img {
+    max-width: 100%;
+}
+
+.fixed-centered {
+    margin: 2px;
+}
+
+.section-content h1 {
+    margin: 6px 0px;
+}
+
+.section-marker h2 {
+    font-size: 14px;
+    color: #999;
+    font-weight: 500;
+}
+
+@media (min-width: 900px) {
+    .header-image {
+        margin-right: 25px;
+    }
+
+    .profile-image {
+        transform: rotate(-4deg);
+        border: 1px solid #ccc;
+        padding: 10px;
+        background: white;
+        margin: 20px 0;
+    }
+    
+    .profile-image:hover {
+        transform: rotate(0deg);
+        transition: 0.5s;
+    }
+
+    .section-marker {
+        width: 400px;
+        text-align: right;
+        float: left;
+        clear: left;
+    }
+
+    .section-content {
+        width: 500px;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+    .section-marker h2 {
+        margin: 0 30px 0 0;
+    }
+
+    .section-content h1 {
+        margin-top: 190px;
+    }
+
+    .fixed-centered {
+        max-width: 900px;
+        margin: 40px auto;
+    }
 }
