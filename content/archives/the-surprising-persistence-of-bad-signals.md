@@ -12,7 +12,7 @@ Instead, I will show that *even ignoring switching costs and other sources of ma
 
 To demonstrate this, let's pretend that we are installing a gumball machine. It takes one coin and dispenses one gumball.
 
-We happen to know that in the location we've picked, a significant number of the coins in circulation are counterfeits.  Many of the counterfeits have manufacturing defects that reveal them as fake: 50% have a measurable size difference, and 80% have a detectible difference in conductivity. These errors are independently distributed, so a coin *with* a size defect is just as likely to have a conductivity defect as a coin *without* a size defect. Therefore if we select 100 counterfeits at random, we would expect the defect distribution to break down like this:
+We happen to know that in the location we've picked, a significant number of the coins in circulation are counterfeits.  Many of the counterfeits have manufacturing defects that reveal them as fake: 50% have a measurable size difference, and 80% have a detectible difference in conductivity. These errors are independently distributed, so a coin *with* a size defect is just as likely to have a conductivity defect as a coin *without* a size defect. So, if we select 100 counterfeits at random, we would expect the defect distribution to break down like this:
 
 
 <img src="/images/bad_signals/coin_distribution.png" style="display: block; margin: auto;" alt="Counterfeit defect distribution">
