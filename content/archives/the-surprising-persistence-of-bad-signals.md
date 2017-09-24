@@ -18,9 +18,9 @@ We happen to know that in the location we've picked, a significant number of the
 <img src="/images/bad_signals/coin_distribution.png" style="display: block; margin: auto;" alt="Counterfeit defect distribution">
 
 
-Let's say there are two competing counterfeit detectors on the market, one which tests the coin's size and another which tests the coin's conductivity. Due to size constraints, our gumball dispenser can only have one. Both are perfect at detecting the manufacturing defects when a coin has them.
+Let's say there are two competing counterfeit detectors on the market, one which tests the coin's size and another which tests the coin's conductivity. Due to space constraints, we only have room for one. Both are perfect at detecting the manufacturing defects when a coin has them.
 
-It should be pretty obvious that, all else being equal, the conductivity detector is the better choice. But here's the rub: we're installing the gumball machine in an location with four other candy dispensers. I happen to know that they all use the **size** method of detecting counterfeits. You have also observed that customers have a uniformly random ordering of preference over the machines, and they stubbornly try every dispenser in order of their preference when their coin is rejected.
+It should be pretty obvious that, all else being equal, the conductivity detector is the better choice. But here's the rub: we're installing the gumball machine in an location with four other candy dispensers. I happen to know that they all use the size method of detecting counterfeits. You have also observed that customers have a uniformly random ordering of preference over the machines, and they stubbornly try every dispenser in order of their preference when their coin is rejected.
 
 Under these new circumstances, which counterfeit detector should we install?
 
