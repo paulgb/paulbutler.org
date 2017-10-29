@@ -1,2 +1,2 @@
-/.well-known/host-meta         https://m.paulbutler.org/.well-known/host-meta     301
+/.well-known/*                 https://m.paulbutler.org/:splat      301
 
