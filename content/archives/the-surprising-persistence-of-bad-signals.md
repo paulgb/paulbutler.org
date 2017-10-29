@@ -30,7 +30,7 @@ Let's say we pick the **size** method.
 <img src="/images/bad_signals/size_method.png" style="display: block; margin: auto;">
 
 
-On average, out of 100 counterfeit coins, half will not have a size defect -- we can ignore those coins because our counterfeit detector will reject them. Of the half that we *can't* detect, a fifth will belong to customers whose first choice is our gumballs (remember, there are four other machines and preferences are uniformly distributed). A fifth of a half of 100 is 10 coins, which is how many counterfeits we accept using this approach. (Since we never reject authentic coins with either method, I'm only considering how many counterfeits we accept.)
+On average, out of 100 counterfeit coins, half will have a size defect -- we can ignore those coins because our counterfeit detector will reject them. Of the half that we *can't* detect, a fifth will belong to customers whose first choice is our gumballs (remember, there are four other machines and preferences are uniformly distributed). A fifth of a half of 100 is 10 coins, which is how many counterfeits we accept using this approach. (Since we never reject authentic coins with either method, I'm only considering how many counterfeits we accept.)
 
 Now, let's consider the **conductivity** method, again looking at an average 100 counterfeits.
  
