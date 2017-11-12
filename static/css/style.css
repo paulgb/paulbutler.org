@@ -49,8 +49,9 @@ pre {
 }
 
 .nav {
-    background: #fee;
-    padding: 8px 8px;
+    background: #f5f5f5;
+    padding: 8px 14px;
+    box-shadow: 1px 0px 3px #888888;
 }
 
 .nav ul {
