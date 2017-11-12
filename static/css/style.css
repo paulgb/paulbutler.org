@@ -16,6 +16,11 @@ h1 {
     font-size: 44px;
 }
 
+h2 {
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 22px;
+    color: #222;
+}
 
 
 .section-content ul {
@@ -85,6 +90,10 @@ pre {
     font-size: 14px;
     color: #999;
     font-weight: 500;
+}
+
+.fixed-centered {
+    margin: 0 10px;
 }
 
 @media (min-width: 900px) {
