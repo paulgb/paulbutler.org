@@ -38,7 +38,7 @@ Like the ducat, Bitcoin is touted as a solution to sins attributed to government
 
 ## Useful Money
 
-Proponents of Bitcoin argue that money's value comes not from representing any expectation, but from its usefulness in transactions. Markets need a some form of currency to function, so in a free market people will prefer to entrust a currency which can be transacted electronically and cannot be arbitrarily inflated by a government. Thus Bitcoin, as the most broadly-accepted cryptocurrency that fits these criteria, has great value.
+Proponents of Bitcoin argue that money's value comes not from representing any expectation, but from its usefulness in transactions. Markets need a form of currency to function, so in a free market people will prefer to entrust a currency which can be transacted electronically and cannot be arbitrarily inflated by a government. Thus Bitcoin, as the most broadly-accepted cryptocurrency that fits these criteria, has great value.
 
 Under this theory it is not the expectation attached to money that drives its usefulness in transaction, but its usefulness in transaction that creates its value. Future generations are assumed to be willing to work or trade goods for bitcoins, in the expectation that their own future generations are willing to do so, and so on. In this view, a bitcoin acts as a token of an eternal debt that is never cashed in, but traded to posterity. The value that the coins represent is borrowed from infinity, in the same way that [Hilbert's Grand Hotel](https://en.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel) can always find another room.
 
