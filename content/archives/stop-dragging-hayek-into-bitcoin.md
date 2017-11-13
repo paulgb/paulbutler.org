@@ -34,11 +34,11 @@ Now let's turn to Bitcoin. A core feature of Bitcoin is that it has no central i
 
 Unlike the issuer of Hayek's ducats, when the miner of a bitcoin sells that bitcoin for dollars, there is no expectation that the proceeds will be re-invested to manage the price of the currency. In fact, most of the value of that coin has already been spent on energy costs in generating the coin.[^energy]
 
-Like the ducat, Bitcoin is touted as a solution to sins attributed to government money. Both remove the government as the counterparty to the expectation that the money represents. But where Hayek moves the burden of the expectation to a bank, Bitcoin dispenses entirely with the notion that the currency is a token of expectation. This deviation from Hayek is not just an implementation detail, it's a completely different theory of money. 
+Like the ducat, Bitcoin is touted as a solution to sins attributed to government money. Both remove the government as the counterparty to the expectation that the money represents. But where Hayek moves the burden of the expectation to a bank, Bitcoin dispenses entirely with the notion that the currency is a token of expectation. This deviation from Hayek is not just an implementation detail, it's a completely different theory of money.
 
 ## Useful Money
 
-Proponents of Bitcoin argue that money's value comes not from representing any expectation, but from its usefulness in transactions. Markets need a form of currency to function, so in a free market people will prefer to entrust a currency which can be transacted electronically and cannot be arbitrarily inflated by a government. Thus Bitcoin, as the most broadly-accepted cryptocurrency that fits these criteria, has great value.
+Proponents of Bitcoin argue that money's value comes not from representing any expectation, but from its usefulness in transactions. Markets need a form of currency to function, so in a free market people will prefer to entrust a currency which can be transacted electronically and cannot be arbitrarily inflated by a government. This would give Bitcoin, the most broadly-accepted cryptocurrency that fits these criteria, great value.
 
 Under this theory it is not the expectation attached to money that drives its usefulness in transaction, but its usefulness in transaction that creates its value. Future generations are assumed to be willing to work or trade goods for bitcoins, in the expectation that their own future generations are willing to do so, and so on. In this view, a bitcoin acts as a token of an eternal debt that is never cashed in, but traded to posterity. The value that the coins represent is borrowed from infinity, in the same way that [Hilbert's Grand Hotel](https://en.wikipedia.org/wiki/Hilbert%27s_paradox_of_the_Grand_Hotel) can always find another room.
 
@@ -48,7 +48,7 @@ Backers of this theory often point out that gold has worked this way for millenn
 
 I don't expect this post to change anyone's opinions on bitcoin, and I have tried to present the case for Bitcoin fairly. I'm in no more of a position to say that bitcoins are overvalued than I am to say that a decaying shark is not worth [eight million dollars](https://en.wikipedia.org/wiki/The_Physical_Impossibility_of_Death_in_the_Mind_of_Someone_Living): value is what *someone* is willing to pay, not what *I'm* willing to pay.
 
-Instead, I hope what you take away from this is that Hayek's blueprint for denationalized currencies is not realized by today's mainstream cryptocurrencies. Though Hayek's work and Bitcoin are both motivated by the same problems with fiat currencies, the alternatives they take are not just different, but based on a fundamentally different understanding of what money is.
+Instead, I hope what you take away from this is that Hayek's blueprint for denationalized currencies is not realized by today's mainstream cryptocurrencies[^mainstream]. Though Hayek's work and Bitcoin are both motivated by the same problems with fiat currencies, the alternatives they take are not just different, but based on a fundamentally different understanding of what money is.
 
 [^refined]: And its 1978 revision, *Denationalisation of Money: The Argument Refined*. Where the two differ, this post refers to the revised version.
 
@@ -56,7 +56,7 @@ Instead, I hope what you take away from this is that Hayek's blueprint for denat
 
 [^invest]: "The issuing bank [...] would not wish to incur an obligation to maintain by redemption a value of its currency higher than that at which it had issued it. [The] bank would presumably be driven to buy interest-bearing securities [...]" (*Denationalisation of Money: The Argument Refined*)
 
-[^credit]: This "expectation" view of money is my attempt to distill the least controversial elements of *What is Money* and *The Credit Theory of Money* by A Mitchell Innes (1913 & 1914 respectively.) The subject is also covered by David Graeber in *Debt: The First 5,000 Years* (2011).
+[^credit]: This *expectation* view of money is my attempt to distill the least controversial elements of *What is Money* and *The Credit Theory of Money* by A Mitchell Innes (1913 & 1914 respectively.) The subject is also covered by David Graeber in *Debt: The First 5,000 Years* (2011).
 
 [^taxes]: Bitcoin draws a disproportionate number of people who don't believe in the moral legitimacy of the government's ability to collect tax. That argument is beyond the scope of this post, because it doesn't change the economics of how fiat works in a world where tax does exist.
 
@@ -69,3 +69,5 @@ Instead, I hope what you take away from this is that Hayek's blueprint for denat
 [^gold]: Gold also has value from its use in jewelry but this demand does not explain its value.
 
 [^network]: Sometimes [Metcalfe's law](https://en.wikipedia.org/wiki/Metcalfe%27s_law) is invoked to argue that network effects will make it increasingly difficult to unseat bitcoin. I would argue that this is offset by the potential profitability of being an early adopter of a rival cryptocurrency.
+
+[^mainstream]: By *mainstream* I mean decentralized proof-of-work cryptocurrencies in the spirit of Bitcoin. A few coins claim to be commodity backed or otherwise more true to Hayek, but I'm not in a position to determine whether or not they actually hold the reserves they claim or are scams.
