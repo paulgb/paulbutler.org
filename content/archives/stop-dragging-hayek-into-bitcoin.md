@@ -48,7 +48,7 @@ Backers of this theory often point out that gold has worked this way for millenn
 
 I don't expect this post to change anyone's opinions on bitcoin, and I have tried to present the case for Bitcoin fairly. I'm in no more of a position to say that bitcoins are overvalued than I am to say that a decaying shark is not worth [eight million dollars](https://en.wikipedia.org/wiki/The_Physical_Impossibility_of_Death_in_the_Mind_of_Someone_Living): value is what *someone* is willing to pay, not what *I'm* willing to pay.
 
-Instead, I hope what you take away from this is that Hayek's blueprint for denationalized currencies is not realized by today's mainstream cryptocurrencies[^mainstream]. Though Hayek's work and Bitcoin are both motivated by the same problems with fiat currencies, the alternatives they take are not just different, but based on a fundamentally different understanding of what money is.
+Instead, I hope what you take away from this is that Hayek's blueprint for denationalized currencies is not realized by today's mainstream cryptocurrencies.[^mainstream] Though Hayek's work and Bitcoin are both motivated by the same problems with fiat currencies, the alternatives they take are not just different, but based on a fundamentally different understanding of what money is.
 
 [^refined]: And its 1978 revision, *Denationalisation of Money: The Argument Refined*. Where the two differ, this post refers to the revised version.
 
