@@ -24,7 +24,7 @@ Government-issued fiat currencies and Hayek's ducat can each be seen as a token 
 
 > A prince who should enact that a certain proportion of his taxes should be paid in a paper money of a certain kind might thereby give a certain value to this paper money, even though the term of its final discharge and redemption should depend altogether upon the will of the prince.[^smith]
 
-By contrast, the expectation represented by the ducat is that the bank will buy it back for a price near the commodity value it is pegged to, if nobody else will (this is a corollary to the bank's promise of a stable value). Rather than bank on the "will of the prince", the holder of a ducat puts his trust in the issuing bank.
+By contrast, the expectation represented by the ducat is that the bank will buy it back for a price near the commodity value it is pegged to, if nobody else will (this is a corollary to the bank's promise of a stable value.) Rather than bank on the "will of the prince", the holder of a ducat puts his trust in the issuing bank.
 
 Both the fiat currencies and ducat obtain their value from the expectations attached to them. Their usefulness in exchange is a side-effect of the transferability of these expectations.
 
