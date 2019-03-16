@@ -46,4 +46,3 @@ This code works, but only for <em>x</em> < 1000, because Python limits the recur
 It’s not as pretty as the Scheme version, but it does the trick. Of course, the odd/even functions are just for the sake of a simple example and have no real-world use, but the <code>tail_rec</code> function could be used in practice.
 
 <strong>April 2009 Update</strong>: this article has recently had some popularity. One of the more common comments is that tail_rec could be used as a decorator. In fact, this isn’t true, because <code>even</code> and <code>odd</code> need access to the raw, undecorated versions of each other in the creation of the lambda.
-

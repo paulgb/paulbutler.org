@@ -8,7 +8,7 @@ The WSJ article came just as I was finishing up a visualization of some data I h
 
 Each box is a deal. I used height to represent number sold, and width to represent the price. Area is therefore gross revenue, and colour is city for the top 20 cities.
 
-![Groupon Sales Visualization](/images/gpvis.png)
+![Groupon Sales Visualization](gpvis.png)
 
 [Here is the full, interactive version.](http://gpvis.bitaesthetics.com) It only works in browsers which support SVG.
 

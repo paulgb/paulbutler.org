@@ -32,7 +32,7 @@ The result is a list of queen positions given as <a href="http://en.wikipedia.or
 
 As an example, the result <code>["a1","b5","c8","d6","e3","f7","g2","h4"]</code> would look like this:
 
-![Eight Queens Solution](/images/8queens.png)
+![Eight Queens Solution](8queens.png)
 
 Before I explain how it works, I'll put the whitespace back in.
 

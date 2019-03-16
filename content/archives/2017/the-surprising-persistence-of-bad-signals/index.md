@@ -15,7 +15,7 @@ To demonstrate this, let's pretend that we are installing a gumball machine. It 
 We happen to know that in the location we've picked, a significant number of the coins in circulation are counterfeits.  Many of the counterfeits have manufacturing defects that reveal them as fake: 50% have a measurable size difference, and 80% have a detectible difference in conductivity. These errors are independently distributed, so a coin *with* a size defect is just as likely to have a conductivity defect as a coin *without* a size defect. So, if we select 100 counterfeits at random, we would expect the defect distribution to break down like this:
 
 
-<img src="/images/bad_signals/coin_distribution.png" style="display: block; margin: auto;" alt="Counterfeit defect distribution">
+<img src="coin_distribution.png" style="display: block; margin: auto;" alt="Counterfeit defect distribution">
 
 
 Let's say there are two competing counterfeit detectors on the market, one which tests the coin's size and another which tests the coin's conductivity. Due to space constraints, we only have room for one. Both are perfect at detecting the manufacturing defects when a coin has them.
@@ -27,7 +27,7 @@ Under these new circumstances, which counterfeit detector should we install?
 Let's say we pick the **size** method.
 
 
-<img src="/images/bad_signals/size_method.png" style="display: block; margin: auto;">
+<img src="size_method.png" style="display: block; margin: auto;">
 
 
 On average, out of 100 counterfeit coins, half will have a size defect -- we can ignore those coins because our counterfeit detector will reject them. Of the half that we *can't* detect, a fifth will belong to customers whose first choice is our gumballs (remember, there are four other machines and preferences are uniformly distributed). A fifth of a half of 100 is 10 coins, which is how many counterfeits we accept using this approach. (Since we never reject authentic coins with either method, I'm only considering how many counterfeits we accept.)
@@ -35,7 +35,7 @@ On average, out of 100 counterfeit coins, half will have a size defect -- we can
 Now, let's consider the **conductivity** method, again looking at an average 100 counterfeits.
  
 
-<img src="/images/bad_signals/conduct_method.png" style="display: block; margin: auto;">
+<img src="conduct_method.png" style="display: block; margin: auto;">
 
 
 One fifth of the counterfeits will come to us first, as above. Of those 20, all but 4 are rejected by the conductivity test. But recall the stubbornness of our customers: when their coin is rejected by the size-based detectors, they will eventually find their way into our machine. We can reject 80% of them, but that still leaves us accepting an additional 8 counterfeit coins for a total of 12. Note that our competitors are worse off too: of the coins our machine rejects for failing the conductivity test, 6 will still pass the size test and end up at our competitors.

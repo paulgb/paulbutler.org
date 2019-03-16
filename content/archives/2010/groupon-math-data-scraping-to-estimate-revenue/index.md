@@ -4,7 +4,7 @@ date: 2010-04-15
 ---
 There’s been a lot of talk recently about the Chicago startup <a href="http://www.groupon.com/">Groupon</a>. Groupon brands itself as a group-buying site, but it’s really more of a localized version of what <a href="http://www.woot.com/">woot.com</a> does. They post a new deal (which they call a <em>Groupon</em>) every day, available only on that day. If enough people want to buy it, everyone gets it for a substantial discount. Otherwise, nobody gets anything, but this rarely happens from what I can tell.
 
-<img src="/images/groupon.png" align="right" alt="Groupon Screenshot" />
+<img src="groupon.png" align="right" alt="Groupon Screenshot" />
 
 <a href="http://techcrunch.com/2010/04/13/groupon-raises-huge-new-round-at-1-2-billion-valuation/">According to TechCrunch</a>, the company is in the process of raising money at a $1.2 billion dollar valuation. There was lots of speculation about the future worth of the company, but little information about current revenue, even though there is a lot of raw data readily available in the site’s archives. I put together a scraper (in just a few lines of Python, thanks to <a href="http://www.crummy.com/software/BeautifulSoup/">BeautifulSoup</a>) and gathered a total of 1065 past Groupons.
 
@@ -18,20 +18,20 @@ Extrapolating the data I had (again, with the disclaimer that my sample may not 
 
 Looking on a monthly basis, the recent growth of the company is clear. A third of the total savings — in over a year of business — happened last month. This works out to $26,706,059 in revenue last month alone, or about $9.3 million (less the operating costs) profit if you assume they take a 35% cut. The below graph shows the growth by month.
 
-![Groupon Growth](/images/groupon_growth1.png)
+![Groupon Growth](groupon_growth1.png)
 
 Whether or not it’s a $1.2 billion company (<a href="http://www.businessinsider.com/groupon-is-cheap-at-12-billion-2010-4">BusinessInsider says that’s actually low</a>, though without any quantitative justification), they’re clearly doing well for a company just over a year after launch.
 
 Here are a couple more graphs constructed from the data
 
-[![Estimated To-Date Revenue per City](/images/groupon_cities.png)](/images/groupon_cities.png)
+[![Estimated To-Date Revenue per City](groupon_cities.png)](groupon_cities.png)
 
-[![Average Revenue per Groupon](/images/groupon_cities_average.png)](/images/groupon_cities_average.png)
+[![Average Revenue per Groupon](groupon_cities_average.png)](groupon_cities_average.png)
 
 <strong>Update May 26, 2010</strong>: a few more graphs with more recent data follow.
 
-[![Sales by Date](/images/sales_by_date_top-300x225.png)](/images/sales_by_date_top.png)
-[![Prices by Date](/images/prices_by_date_zoom_top-300x225.png)](/images/prices_by_date_zoom_top.png)
-[![Revenue by Date](/images/revenue_by_date_top-300x225.png)](/images/revenue_by_date_top.png)
-[![Price Trend of First Five Cities](/images/price_trend_firstcities-300x225.png)](/images/price_trend_firstcities.png)
+[![Sales by Date](sales_by_date_top-300x225.png)](sales_by_date_top.png)
+[![Prices by Date](prices_by_date_zoom_top-300x225.png)](prices_by_date_zoom_top.png)
+[![Revenue by Date](revenue_by_date_top-300x225.png)](revenue_by_date_top.png)
+[![Price Trend of First Five Cities](price_trend_firstcities-300x225.png)](price_trend_firstcities.png)
 

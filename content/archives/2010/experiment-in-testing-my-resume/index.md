@@ -17,11 +17,11 @@ date: 2010-07-01
 
 <p>Second, I wanted to know how my <strong>grades</strong> affected the résumé. Obviously I couldn’t start making things up, but since my major average differs from my overall average by a good margin, I had two numbers that I could use truthfully with a subtle change in wording.</p>
 
-![Résumé variations with different grades](/images/gpa.png)
+![Résumé variations with different grades](gpa.png)
 
 Finally, I wanted to test whether it pays to include <strong>social media links</strong> on the résumé. I chose <a href="http://github.com/paulgb">GitHub</a>, <a href="http://www.linkedin.com/in/paulgb">LinkedIn</a>, and <a href="http://twitter.com/paulgb">twitter</a> as the links to test. GitHub was an obvious choice because it emphasizes my free-time projects. LinkedIn seemed like a good one to test, given that it is for professional networking. I chose twitter as another variation because I was curious to see what the reaction to a more personal social networking site would be. All résumés linked back to my blog as well. Finally, I had another resume which linked <strong>only</strong> to my blog, as a control group.<p></p>
 
-![Résumé variation with a link to GitHub](/images/link.png)
+![Résumé variation with a link to GitHub](link.png)
 
 In all, these three variations resulted in 16 unique résumés. Fortunately I didn’t have to create them all by hand. I was already using LaTeX for my résumé, using one of the elegantly typeset templates from <a href="http://www.cv-templates.info/">The CV Inn</a> as a base. I simply threw my latest résumé into a <a href="http://www.makotemplates.org/">Mako Template</a> and wrote some python code to spit out the 16 possible variations of the LaTeX code. Then I used <em>pdflatex</em> to create pdf files. Since I was putting the résumés online, I made a landing page. To keep things simple, the landing page was just an image version of the résumé with a link to download the pdf, and just enough CSS to look presentable.<p></p>
 
@@ -29,7 +29,7 @@ In all, these three variations resulted in 16 unique résumés. Fortunately I di
 
 <p>The only remaining problem was how to get hundreds of people to see my résumé in a short period of time. Fortunately Google offered me $110 in AdWords credits as a Google Analytics user, so I took advantage of that and ran ads on Google searches. Here is one of the half-dozen variations I ran:</p>
 
-![One of the Google ads I ran](/images/googlead.png)
+![One of the Google ads I ran](googlead.png)
 
 <h3>Results</h3>
 
@@ -39,7 +39,7 @@ In all, these three variations resulted in 16 unique résumés. Fortunately I di
 
 <p>As you might expect, the people who encountered the short resume were much more likely to scroll to the bottom. Just over half did, versus just under a third of those presented with the long resume. This makes sense because there is less to scroll through, but it was nice to have the data confirm my suspicions. Note that in the following graph, and all others in this post, the grey lines indicate the 90% confidence interval.</p>
 
-![Scroll Rate by Length](/images/hitbottom_length.png)
+![Scroll Rate by Length](hitbottom_length.png)
 
 The short résumé also resulted in more downloads and blog views, but not enough to be statistically significant with the amount of data I collected.</p>
 
@@ -51,23 +51,23 @@ The short résumé also resulted in more downloads and blog views, but not enoug
 
 <p>I was surprised to find that the non-blog link shown on my résumé affected the frequency of click-throughs to my blog. Even adding a link to my GitHub profile more than halved the frequency of a clickthrough to my blog. LinkedIn and twitter were even worse.</p>
 
-![Blog view rate by link](/images/blogview_link.png)
+![Blog view rate by link](blogview_link.png)
 
 I created a heatmap-like visualization from the relative significances of each link to each other. For example, the upper leftmost cell means that it is 97.2% likely that if a sufficiently large group of people were exposed to each of the LinkedIn and blog-link-only versions of my résumé, the group that saw the blog-link-only version would visit my blog more. <a href="http://20bits.com/">Jesse E. Farmer</a> has written more about the details of <a href="http://20bits.com/articles/statistical-analysis-and-ab-testing/">how this is calculated</a>.</p>
 
-![Blog View Rate by Link Heatmap](/images/hm_blogview_link.png)
+![Blog View Rate by Link Heatmap](hm_blogview_link.png)
 
 Oddly, the effect was reversed when you consider downloads rather than blog views. The résumés without any social media links were far less likely to be downloaded than those with. Even a résumé with a twitter profile did better than one without, though not by enough to be statistically significant.</p>
 
-![Download Rate by Link](/images/download_link.png)
+![Download Rate by Link](download_link.png)
 
-![Download Rate by Link Heatmap](/images/hm_download_link.png)
+![Download Rate by Link Heatmap](hm_download_link.png)
 
 The additional links also reduced the frequency of readers scrolling to the bottom of the page.</p>
 
-![Scroll Rate by Link](/images/hitbottom_link.png)
+![Scroll Rate by Link](hitbottom_link.png)
 
-![Scroll Rate by Link Heatmap](/images/hm_hitbottom_link.png)
+![Scroll Rate by Link Heatmap](hm_hitbottom_link.png)
 
 <h3>Conclusion</h3>
 

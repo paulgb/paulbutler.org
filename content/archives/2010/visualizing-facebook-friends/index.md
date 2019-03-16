@@ -5,7 +5,7 @@ date: 2010-12-18
 
 Earlier this week I [published a data visualization on the Facebook Engineering blog](http://www.facebook.com/notes/facebook-engineering/visualizing-friendships/469716398919) which, to my surprise, has [received](http://www.economist.com/blogs/dailychart/2010/12/data_visualisation_1) [a lot of](http://blogs.forbes.com/mikeisaac/2010/12/13/what-10-million-facebook-friendships-looks-like-a-data-visualization/?boxes=Homepagechannels) [media](http://www.nbcbayarea.com/news/tech/Facebook-Map-Reveals-Web-of-Connections-111883594.html) [coverage](http://newsfeed.time.com/2010/12/14/tracking-facebook-friendships-creates-a-stunning-global-map/)
 
-![Facebook Friends Visualization](/images/facebook_map.png)
+![Facebook Friends Visualization](facebook_map.png)
 
 I’ve received a lot comments about the image, many [asking for more details on how I created it](http://www.quora.com/What-data-visualization-software-did-Paul-Butler-use-to-create-the-Facebook-friend-visualization-map-published-on-12-14-10). When I tell people I used [R](http://www.r-project.org/), the reaction I get is roughly what I would expect if I told them I made it with [Microsoft Paint](http://en.wikipedia.org/wiki/Paint_%28software%29) and a bottle of [Jägermeister](http://en.wikipedia.org/wiki/J%C3%A4germeister). Some people even [questioned whether it was actually done in R](http://news.ycombinator.com/item?id=2002859). The truth is, aside from the addition of the logo and date text, the image was produced entirely with about 150 lines of R code with no external dependencies. In the process I learned a few things about creating nice-looking graphs in R.</p>
 
