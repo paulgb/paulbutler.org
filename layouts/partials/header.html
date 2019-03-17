@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Paul Butler – {{ .Title }}</title>
+    <title>Paul Butler {{ if (isset .Params "title") }}– {{ .Title }}{{ end }}</title>
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
