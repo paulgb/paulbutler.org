@@ -5,7 +5,7 @@
 </div>
 <div class="section-content">
     <ul>
-        {{ range (where .Data.Pages.ByDate.Reverse "Section" "posts") }}
+        {{ range (where (where .Data.Pages.ByDate.Reverse ".Params.visible" true) "Section" "posts") }}
         <li><a href="{{ .Params.xurl | default .Permalink }}">{{ .Title }}</a>
             <em>({{ .Date.Format "January 2, 2006" }})</em></li>
         {{ end }}
