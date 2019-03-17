@@ -1,2 +1,17 @@
-/.well-known/*                 https://m.paulbutler.org/.well-known/:splat      200
-
+archives/webfractal-web-based-fractal-explorer/	            /2007/webfractal-web-based-fractal-explorer/
+archives/a-simple-diff-algorithm-in-php/	                /2007/a-simple-diff-algorithm-in-php/
+archives/garden-path-sentences/	                            /2007/garden-path-sentences/
+archives/tail-recursion-in-python/	                        /2007/tail-recursion-in-python/
+archives/simplediff-in-python/                          	/2008/simplediff-in-python/
+archives/python-debugging-with-decorators/              	/2008/python-debugging-with-decorators/
+archives/n-queens-in-a-tweet/	                            /2009/n-queens-in-a-tweet/
+archives/do-we-really-need-another-programming-language/	/2009/do-we-really-need-another-programming-language/
+archives/groupon-math-data-scraping-to-estimate-revenue/	/2010/groupon-math-data-scraping-to-estimate-revenue/
+archives/why-r-doesnt-suck/	                                /2010/why-r-doesnt-suck/
+archives/experiment-in-testing-my-resume/	                /2010/an-experiment-in-a/b-testing-my-résumé/
+archives/data-structures-for-range-sum-queries-slides/	    /2010/data-structures-for-range-sum-queries/
+archives/visualizing-facebook-friends/	                    /2010/visualizing-facebook-friends/
+archives/what-480m-of-gross-revenue-looks-like-to-groupon/	/2011/what-480-of-gross-revenue-looks-like-to-groupon/
+archives/groupon-visualization-in-hbr/	                    /2011/groupon-visualization-in-hbr/
+archives/the-surprising-persistence-of-bad-signals/	        /2017/the-surprising-persistence-of-bad-signals/
+archives/stop-dragging-hayek-into-bitcoin/	                /2017/stop-dragging-hayek-into-bitcoin/

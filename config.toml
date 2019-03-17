@@ -1,6 +1,5 @@
-baseURL = "https://paulbutler.org/"
 languageCode = "en-us"
-title = "NYC Data Analyst"
+title = ""
 
 [blackfriday]
   extension = ["footnotes"]

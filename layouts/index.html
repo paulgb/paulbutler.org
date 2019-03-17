@@ -13,14 +13,14 @@
 </div>
 <div class="section-content">
   <ul>
-    {{ range first 6 (where .Data.Pages.ByPublishDate "Section" "archives") }}
+    {{ range first 6 (where (where .Data.Pages.ByDate.Reverse ".Params.visible" true) "Section" "posts") }}
     <li>
       <a href="{{ .Params.xurl | default .Permalink }}">{{ .Title }}</a>
       <em>({{ .Date.Format "January 2, 2006" }})</em>
     </li>
     {{ end }}
     <li>
-      <a href="/archives/">Older posts</a>
+      <a href="/posts/">Older posts</a>
     </li>
   </ul>
 </div>
@@ -47,6 +47,9 @@
   <ul>
     <li>
       <a href="https://twitter.com/paulgb">twitter</a>
+    </li>
+    <li>
+      <a href="/posts/index.xml">RSS</a>
     </li>
     <li>
       <a href="https://tinyletter.com/paulgb">email newsletter</a>
