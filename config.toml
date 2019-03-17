@@ -1,9 +1,5 @@
-baseURL = "https://paulbutler.org/"
 languageCode = "en-us"
 title = ""
 
 [blackfriday]
   extension = ["footnotes"]
-
-[permalinks]
-  posts = "/:year/:slug/"
