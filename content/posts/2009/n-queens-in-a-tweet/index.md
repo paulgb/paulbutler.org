@@ -1,6 +1,7 @@
 ---
 title: N-Queens in a Tweet
 date: 2009-06-24
+visible: true
 ---
 Most people who like puzzles or study computer science have probably encountered the famous <a href="http://en.wikipedia.org/wiki/Eight_queens_puzzle">N-Queens problem</a>. If you haven’t, before reading any further, try this <a href="http://www.hbmeyer.de/backtrack/achtdamen/eight.htm">online version</a> of the most popular form, the 8-Queens problem.
 

@@ -1,6 +1,7 @@
 ---
 title: The Surprising Persistence of Bad Signals
 date: 2017-09-24
+visible: true
 ---
 How likely is a debtor to default on a loan? How likely is a student to succeed in college?
 

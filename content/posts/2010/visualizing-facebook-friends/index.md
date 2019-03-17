@@ -1,6 +1,7 @@
 ---
 title: Visualizing Facebook Friends
 date: 2010-12-18
+visible: true
 ---
 
 Earlier this week I [published a data visualization on the Facebook Engineering blog](http://www.facebook.com/notes/facebook-engineering/visualizing-friendships/469716398919) which, to my surprise, has [received](http://www.economist.com/blogs/dailychart/2010/12/data_visualisation_1) [a lot of](http://blogs.forbes.com/mikeisaac/2010/12/13/what-10-million-facebook-friendships-looks-like-a-data-visualization/?boxes=Homepagechannels) [media](http://www.nbcbayarea.com/news/tech/Facebook-Map-Reveals-Web-of-Connections-111883594.html) [coverage](http://newsfeed.time.com/2010/12/14/tracking-facebook-friendships-creates-a-stunning-global-map/)

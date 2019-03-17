@@ -1,6 +1,7 @@
 ---
 title: Tuning Style Transfer with a Control Surface
 date: 2018-02-18
+visible: true
 ---
 There's a fun technique introduced by [Gatys, Ecker, and Bethge](https://arxiv.org/abs/1508.06576) that lets you reduce an image into separate "content" and "style" representations. Then, by taking a content representation from one image and the style representation from another, you can create a new image that matches the content of the first image in the style of the second.
 

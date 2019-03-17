@@ -1,6 +1,7 @@
 ---
 title: Do we Really Need Another Programming Language?
 date: 2009-11-11
+visible: true
 ---
 Yesterday, a group inside Google released a new programming language called <a href="http://golang.org">go</a>. Among the many comments on the new language, I noticed a number of people rhetorically asking if there is really room for more programming languages. I’ve seen the same sentiment expressed before, seemingly whenever someone releases a pet language (Arc, Factor) or rediscovers an older programming language (Smalltalk, Erlang, LISP).
 

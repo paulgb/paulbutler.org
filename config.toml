@@ -4,3 +4,6 @@ title = ""
 
 [blackfriday]
   extension = ["footnotes"]
+
+[permalinks]
+  posts = "/:year/:slug/"

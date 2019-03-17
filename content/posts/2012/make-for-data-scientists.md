@@ -1,6 +1,7 @@
 ---
 title: Make for Data Scientists
 date: 2012-10-15
+visible: true
 ---
 
 _This is a follow-up to [Chris Clark's](http://blog.untrod.com/) post, [Engineering Practices in Data Science](http://blog.kaggle.com/2012/10/04/engineering-practices-in-data-science/), and is [cross-posted to the Kaggle blog](http://blog.kaggle.com/2012/10/15/make-for-data-scientists/)._

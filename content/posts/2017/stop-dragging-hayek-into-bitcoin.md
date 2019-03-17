@@ -1,6 +1,7 @@
 ---
 title: Stop Dragging Hayek into Bitcoin
 date: 2017-11-12
+visible: true
 ---
 *Note: This post discusses the relationship between Hayek's work and cryptocurrencies, and is not financial advice. Opinions are my own. I do not hold a position in Bitcoin or other cryptocurrencies.*
 
