@@ -16,3 +16,4 @@ archives/groupon-visualization-in-hbr/	                    /2011/groupon-visuali
 archives/the-surprising-persistence-of-bad-signals/	        /2017/the-surprising-persistence-of-bad-signals/
 archives/stop-dragging-hayek-into-bitcoin/	                /2017/stop-dragging-hayek-into-bitcoin/
 /:year                                                      /posts/
+/:year/*                                                    /posts/:year/:splat
