@@ -6,6 +6,10 @@ body {
     color: #222;
 }
 
+blockquote {
+    color: #666;
+}
+
 a {
     color: #c33;
     text-decoration: none;
