@@ -19,7 +19,7 @@ This is contrasted with a more complicated choice in an RCV election:
 
 This is a misleading premise. The minimum bar for participation in an RCV election is the same as with plurality: check one box for your favorite candidate and leave it at that. Granted, it may take a little more effort to find that box, but that’s a far cry from the burden presented here.
 
-The sleight-of-hand the report is doing here is to compare the *minimum* bar for participation in plurality with the *maximum* possible expressiveness in RCV. The load-bearing words are “to fully participate,” implying that casting a complete ballot is tantamount to maximizing the power of your ballot. This is neither true in plurality nor in RCV elections.
+The sleight-of-hand here is to compare the *minimum* bar for participation in plurality with the *maximum* possible expressiveness in RCV. The load-bearing words are “to fully participate,” implying that casting a complete ballot is tantamount to maximizing the power of your ballot. This is neither true in plurality nor in RCV elections.
 
 In plurality elections, a voter who asks only *whom do I prefer* takes the risk of diminishing the electoral power of his vote. To ensure the power of his vote is maximized, the voter must also ask: *Does my favorite candidate have a chance of winning? If not, am I indifferent enough to the frontrunners that I am willing to vote for her anyway? Would I rather vote for a less-preferred candidate who has a better chance of winning?*
 
