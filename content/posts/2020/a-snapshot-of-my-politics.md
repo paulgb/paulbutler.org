@@ -9,7 +9,7 @@ In no particular order, the following are the core ideas that form the basis of 
 
 **#1 The government shouldn’t bully people.** This sounds obvious when stated, but I find there is a moral laundering that goes on between how people would *personally* be willing to treat other people and how they *vote* to have other people treated. If I wouldn’t treat someone badly, I shouldn’t be okay with a government treating them badly on my behalf.
 
-A few applications of this pillar to current policy issues: I’m against civil forfeiture; I’m against laws that attempt to outlaw homelessness; and I’m against the e-bike seizures in NYC (which disproportionately target low-wage delivery workers).
+A few applications of this pillar to current policy issues: I’m against civil forfeiture; I’m against laws that attempt to outlaw homelessness; and I’m against the e-bike seizures in NYC (which disproportionately target low-wage delivery workers).[^1]
 
 **#2 Maximize freedom (with an asterisk).** In a handful of countries, including Sweden, the right to camp on private property is codified into law. Are Swedes more free than Americans, who don’t have this right? A camper and a land-owner could reasonably have different answers to this, and that’s the point: what we talk about as “freedom” can be a matter of how we balance the interests of various groups, rather than an absolute, platonic concept.
 
@@ -32,3 +32,5 @@ Even if it wasn’t simply the right thing to do, the positive externalities of 
 **#5 Voting should be a right.** In a recent town hall, Bernie Sanders was asked whether the Boston Marathon bomber (serving a life sentence) should be able to vote. He answered yes, and he’s right. When we think about rights, we don’t get to carve out exceptions for the worst people. We don’t ask, “do domestic abusers have a right to clean drinking water” or “do serial rapists deserve the right to a fair trial”. For a democracy to be legitimate, voting should be a right, not a privilege. By denying the right to any voting-age citizen, regardless of how unworthy we deem them, we turn it into a privilege that can be denied to others. The permission that politicians have taken to disenfranchise other subsets of the population for partisan reasons stems from the view of voting as a privilege to be earned rather than a right endowed.
 
 There are so few people as reprehensible as the Boston Marathon bomber that even combined their votes will not sway elections; stripping their right to vote is merely a symbolic gesture. But deciding that we are not going to draw *any* lines through who can and cannot vote would put an end to a real problem of voter disenfranchisement.
+
+[^1]: As a Canadian citizen I can’t vote in NYC, but I still have some moral responsibility for these seizures because I pay taxes here.
