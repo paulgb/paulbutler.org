@@ -33,4 +33,4 @@ Even if it wasn’t simply the right thing to do, the positive externalities of 
 
 There are so few people as reprehensible as the Boston Marathon bomber that even combined their votes will not sway elections; stripping their right to vote is merely a symbolic gesture. But deciding that we are not going to draw *any* lines through who can and cannot vote would put an end to a real problem of voter disenfranchisement.
 
-[^1]: As a Canadian citizen I can’t vote in NYC, but I still have some moral responsibility for these seizures because I pay taxes here.
+[^1]: As a Canadian citizen I can’t vote in NYC, but I still have some moral responsibility for these seizures because I pay taxes there.
