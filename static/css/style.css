@@ -26,6 +26,12 @@ h2 {
     color: #222;
 }
 
+h3 {
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 18px;
+    color: #222;
+}
+
 
 .section-content ul {
     list-style: none;
