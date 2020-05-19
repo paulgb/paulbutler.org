@@ -3,7 +3,7 @@ title: "The WebAssembly App Gap"
 date: 2020-05-17
 visible: true
 ---
-To users of [Figma](figma.com/), it's no mystery why the browser-based design tool is popular. What *has* been a mystery to me is why it's so hard to point to Figma equivalents in other categories. Specifically, I mean browser-based apps that embrace modern browser tech (WebAssembly, WebGL) to compete head-to-head with desktop apps without having to compromise features for performance.
+To users of [Figma](https://www.figma.com/), it's no mystery why the browser-based design tool is popular. What *has* been a mystery to me is why it's so hard to point to Figma equivalents in other categories. Specifically, I mean browser-based apps that embrace modern browser tech (WebAssembly, WebGL) to compete head-to-head with desktop apps without having to compromise features for performance.
 
 The answer, I believe, is simply that nobody's built them yet. This essay states the case for the modern browser as a platform, and explores some components that might fill the gaps in a modern stack.
 
