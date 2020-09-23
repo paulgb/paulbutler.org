@@ -1,7 +1,7 @@
 ---
 title: "A snapshot of my politics in 2020"
 date: 2020-01-01
-visible: true
+visible: false
 ---
 With a new decade beginning, I decided it would be worth taking the time to write down the political principles that form the basis of my beliefs, so that I could see how they evolve over the next decade and beyond. Although this is primarily a personal exercise, I thought it would be fun to publish it here, because nothing bad has ever happened to people who share their personal political beliefs on the internet.
 
