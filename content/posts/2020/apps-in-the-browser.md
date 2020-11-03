@@ -26,7 +26,7 @@ The answer, I believe, is simply that nobody's built them yet. This essay states
 
 ## What
 
-The mid-2000s were a major inflection point for applications that run in the browser: Ajax went mainstream, allowing interactions without a page refresh. Browser layout engines gradually fixed bugs and cross-browser inconsistencies, making increasingly more sophisticated UIs possible. The iPhone launched with a data plan and (initially) without an app store, essentially creating the mobile web as a platform. Bandwidth continued to increase as dial-up faded into memory.
+The mid-2000s were a major inflection point for applications that run in the browser: Ajax went mainstream, allowing interactions without a page refresh. Browser layout engines gradually fixed bugs and cross-browser inconsistencies, making increasingly sophisticated UIs possible. The iPhone launched with a data plan and (initially) without an app store, essentially creating the mobile web as a platform. Bandwidth continued to increase as dial-up faded into memory.
 
 The combination of these factors meant that for the first time, in-browser applications could compete with a whole range of desktop applications, from calendars to project management to office suite equivalents.
 
