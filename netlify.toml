@@ -1,13 +1,3 @@
-baseurl = "https://paulbutler.org/"
-languageCode = "en-us"
-title = ""
-
-[blackfriday]
-  extension = ["footnotes"]
-
-[permalinks]
-  posts = "/:year/:slug/"
-
 [context.production.environment]
 HUGO_VERSION = "0.82.1"
 HUGO_ENV = "production"
