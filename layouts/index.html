@@ -9,6 +9,8 @@
   </p>
   <p>
     I'm excited about <strong>tools to explore, explain, and persuade</strong>.
+  </p>
+  <p>
     I create interactive reports on ranked-ballot election results at <a href="https://ranked.vote/">ranked.vote</a>.
     I created <a href="https://treeverse.app/">Treeverse</a>, a browser extension for exploring
     branching conversations.
@@ -28,7 +30,7 @@
 </div>
 <div class="section-content">
   <ul>
-    {{ range first 6 (where (where .Data.Pages.ByDate.Reverse ".Params.visible" true) "Section" "posts") }}
+    {{- range ( where site.RegularPages "Section" "posts" | first 5 ) }}
     <li>
       <a href="{{ .Params.xurl | default .Permalink }}">{{ .Title }}</a>
       <em>({{ .Date.Format "January 2, 2006" }})</em>
@@ -66,8 +68,20 @@
     <li>
       <a href="/posts/index.xml">RSS</a>
     </li>
+  </ul>
+</div>
+<div class="section-marker">
+  <h2>talks</h2>
+</div>
+<div class="section-content">
+  <ul>
     <li>
-      <a href="https://tinyletter.com/paulgb">email newsletter</a>
+      <a href="https://www.youtube.com/watch?v=L2KdOJRR3Vo">Pen Plotting with Pluto</a>
+      at <a href="https://plutojl.org/plutocon2021">PlutoCon 2021</a> <em>(April 2021)</em>
+    </li>
+    <li>
+      <a href="https://www.youtube.com/watch?v=HNzeouj0eKc&t=1852s">Building a Multiplayer WebAssembly Game</a>
+      at <a href="https://berline.rs/2021/03/23/rust-and-tell.html">Rust Berlin</a> <em>(March 2021)</em>
     </li>
   </ul>
 </div>
