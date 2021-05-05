@@ -9,5 +9,5 @@ title = ""
   posts = "/:year/:slug/"
 
 [context.production.environment]
-HUGO_VERSION = "0.82.1+extended"
+HUGO_VERSION = "0.82.1"
 HUGO_ENV = "production"
