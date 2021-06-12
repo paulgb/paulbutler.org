@@ -11,7 +11,7 @@ Ranked-choice elections generate a lot of data. It's not clear yet how much of t
 
 ## **Tabulation records**
 
-In instant-runoff voting, the winner is determined by a series of rounds in which the candidate(s) with the least votes are eliminated and their ballots redistributed to the top-ranked remaining candidate. The tabulation is the count of each candidate's votes at each round.
+In instant-runoff voting, the winner is determined by a series of rounds in which the candidate(s) with the least votes are eliminated and each of their ballots is redistributed to the remaining candidate it ranks highest. The tabulation is the count of each candidate's votes at each round.
 
 The tabulation record is always made public in some form, although often it's in a PDF file rather than in a machine-readable format.
 
