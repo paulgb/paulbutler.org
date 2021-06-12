@@ -3,7 +3,7 @@ title: "Ranked-choice voting for Data Scientists"
 date: 2021-06-12
 visible: true
 ---
-In a few weeks, New York City will become the largest US jurisdiction to use instant-runoff voting when it votes for the .
+In a few weeks, New York City will become the largest US jurisdiction to use instant-runoff voting when it is used in the mayoral primary elections.
 
 Ranked-choice elections generate a lot of data. It's not clear yet how much of this data the New York City Board of Elections will release immediately following the election — [a bill](https://www.nysenate.gov/legislation/bills/2021/S286) that would mandate a broad data release did not pass before the assembly adjourned on Friday. But if the NYC BOE follows in the footsteps of other jurisdictions which have run ranked-choice elections, we can hope to get at least the **cast-vote record** in addition to the **tabulation record**.
 
