@@ -1,11 +1,11 @@
 ---
-title: "Ranked-choice voting for Data Scientists"
+title: "Ranked-choice Voting for Data Scientists"
 date: 2021-06-12
 visible: true
 ---
 In a few weeks, New York City will become the largest US jurisdiction to use instant-runoff voting when it is used in the mayoral primary elections.
 
-Ranked-choice elections generate a lot of data. It's not clear yet how much of this data the New York City Board of Elections will release immediately following the election — [a bill](https://www.nysenate.gov/legislation/bills/2021/S286) that would mandate a broad data release did not pass before the assembly adjourned on Friday. But if the NYC BOE follows in the footsteps of other jurisdictions which have run ranked-choice elections, we can hope to get at least the **cast-vote record** in addition to the **tabulation record**.
+Ranked-choice elections generate a lot of data. It's not clear yet how much of this data the New York City Board of Elections will release immediately following the election — [a bill](https://www.nysenate.gov/legislation/bills/2021/S286) that would mandate a broad data release did not pass before the assembly adjourned on Friday. But if the NYC BOE follows in the footsteps of other jurisdictions which have run ranked-choice elections, we can expect to get at least the **cast-vote record** in addition to the **tabulation record**.
 
 # Types of data
 
@@ -13,23 +13,23 @@ Ranked-choice elections generate a lot of data. It's not clear yet how much of t
 
 In instant-runoff voting, the winner is determined by a series of rounds in which the candidate(s) with the least votes are eliminated and their ballots redistributed to the top-ranked remaining candidate. The tabulation is the count of each candidate's votes at each round.
 
-Some form of tabulation record is always made public, although often it's in a PDF file rather than as nice structured data.
+The tabulation record is always made public in some form, although often it's in a PDF file rather than in a machine-readable format.
 
 ![A screenshot of a tabulation from a Maine election.](tabulation.png)
 
-The tabulation data gives *some* information on voters’ preferences that isn't reflected in the final-round results, but it generally isn't useful for any sort of analysis because it's an incomplete picture. To do anything interesting, you need at least the cast-vote record.
+The tabulation data gives *some* information on voters’ preferences that isn't reflected in the final-round results, but it generally isn't useful for any sort of analysis because it's an incomplete picture. To do anything interesting, we need at least the **cast-vote record**.
 
 ## **Cast-vote record**
 
-The cast-vote record (CVR) is ballot-level data that shows how each (anonymized) voter ranked each candidate. It may also include information like a precinct or a unique identifier.
+The cast-vote record (CVR) is ballot-level data that shows how each (anonymized) voter ranked each candidate. It may also include information like a precinct or ballot number.
 
-In most cases, each ballot cast in a particular contest has a corresponding row in the CVR table. In rare cases, jurisdictions group ballots containing the same ranking into a single record and include a count. This is just a way of compressing the data and doesn't change what can be done with it.
+In most cases, each ballot cast in a particular contest has a corresponding row in the CVR table.  In rare cases, jurisdictions combine multiple ballots into a single record and add a count. This is just a way of compressing the data and doesn't change what can be done with it.
 
-Cast-vote records may be released in a number of different ways:
+Cast-vote records may be released in several different ways:
 
-- [NIST CVR](https://www.nist.gov/publications/cast-vote-records-common-data-format-specification-version-10) is a comprehensive format for reporting cast-vote records for a variety of types of elections, including ranked ballots. It specifies a representation that can be encoded either as XML or JSON; in practice JSON appears to be more popular.
+- [NIST CVR](https://www.nist.gov/publications/cast-vote-records-common-data-format-specification-version-10) is a comprehensive format for reporting cast-vote records for a variety of types of elections, including ranked ballots. It specifies a representation that can be encoded either as XML or JSON; in practice JSON seems to be more popular.
 - [Dominion Ranked Choice Results](https://www.sos.state.co.us/pubs/elections/VotingSystems/DVS-DemocracySuite/documentation/EMS_RTR_UserGuide.pdf) (RTR) is a text-based format that some Dominion tabulators output.
-- Bespoke Excel/CSV formats. Usually, each column is a ranking and each row is a ballot, with the candidate's name in each cell.
+- Bespoke Excel/CSV formats. Usually, each column is a ranking, and each row is a ballot. Each cell contains the name of the candidate who appeared in the associated ranking on the appropriate ballot.
 
 This list isn't exhaustive; I've encountered other text-based formats and even (regrettably) a many-page PDF.
 
@@ -37,11 +37,11 @@ Here's a screenshot of the Excel file format that Maine uses to release CVRs.
 
 ![A screenshot showing a part of a cast-vote record from a Maine election.](cvr.png)
 
-Jurisdictions differ in how they deal with voter errors, such as giving two candidates the same rank (**overvote**) or skipping/omitting a ranking (**undervote**). NIST CVR provides a way to include both the raw marks that were found on the ballot, as well as the final interpretation of those marks. Bespoke formats may simply indicate “overvote”. Knowing that a voter overvoted at a given rank is enough information to compute the tabulation.
+Jurisdictions differ in how they deal with voter errors, such as giving two candidates the same rank (**overvote**) or skipping/omitting a ranking (**undervote**). NIST CVR provides a way to include both the raw marks found on the ballot and the final interpretation of those marks. Bespoke formats may simply indicate “overvote.” Knowing that a voter overvoted at a given rank is enough information to compute the tabulation.
 
 ## **Ballot images**
 
-In some jurisdictions, actual scanned images of the non-identifiable portions of each ballot are available. These don't provide much data of interest that isn't already in the CVR, but they can be handy for debugging data issues. For example, this San Francisco ballot stood out in the data so I used San Francisco's ballot image dataset to see what was going on.
+In some jurisdictions, actual scanned images of the non-identifiable portions of each ballot are available. These scans don't provide much data of interest that isn't already in the CVR, but they can be handy for debugging data issues. For example, this San Francisco ballot stood out in the data so I used San Francisco's ballot image dataset to see what was going on.
 
 ![A ballot from a San Francisco election in which a voter has drawn a heart in each candidate for each ranking.](ballot.png)
 
@@ -49,13 +49,13 @@ In some jurisdictions, actual scanned images of the non-identifiable portions of
 
 # Using the data
 
-Once I have my hands on the cast vote records, I like to audit the official tabulation. This way, I can catch any errors in my analysis and make sure my handling of ballot errors matches the jurisdiction's process.
+Once I have the cast vote records, I like to audit the official tabulation. This way, I can catch any errors in my analysis and make sure my handling of ballot errors matches the jurisdiction's process.
 
 ## Normalizing the ballots
 
 The sort of analysis we generally want to do on ranked-choice ballot data involves knowing the order of preferences among the candidates, as expressed by each voter. For these types of analyses, ballot errors are an unnecessary complication. To simplify things, I like to start by converting the actual ballots into “clean” ballots that meet two conditions:
 
-1. Each ballot has exactly zero or one candidates in each rank position.
+1. Each ballot has exactly zero or one candidate in each rank position.
 2. On a particular ballot, a rank position with one candidate never follows a rank position with zero candidates.
 
 The way I do this conversion depends on the jurisdiction's handling of voter errors. For example, some jurisdictions will simply skip over any ranks without votes, whereas other jurisdictions will skip over a maximum of one rank in a row before exhausting the rest of the ballot. Because I'd like to use the normalized ballots to recreate the official tabulation, I stick to the way the jurisdiction handles voter errors.
