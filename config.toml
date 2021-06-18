@@ -7,3 +7,6 @@ title = ""
 
 [permalinks]
   posts = "/:year/:slug/"
+
+[markup.goldmark.renderer]
+  unsafe= true
