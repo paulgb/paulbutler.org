@@ -30,7 +30,7 @@
 </div>
 <div class="section-content">
   <ul>
-    {{- range ( where site.RegularPages "Section" "posts" | first 5 ) }}
+    {{- range ( where (where site.RegularPages "Section" "posts") ".Params.visible" true | first 5 ) }}
     <li>
       <a href="{{ .Params.xurl | default .Permalink }}">{{ .Title }}</a>
       <em>({{ .Date.Format "January 2, 2006" }})</em>
